@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Salud Dental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a name="start"></a>
+    <header class="header">
+        <img src="./img/logo.png" alt="logo" class="logo">
+        <h1 class="title">Dra. Elena Paula <span> Servicios Odontológicos</span></h1>
+        <ul class="navMenu">
+            <li>
+                <a href="#start">Inicio</a>
+            </li>
+            <li>
+                <a href="#gallery">Galeria</a>
+            </li>
+            <li>
+                <a href="#contact">Agenda tu cita</a>
+            </li>
+        </ul>
+    </header>
+    <section class="card paragraphs">
+        <div class="column">
+            <h2 class="title-paragraphs">Titulo 1</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore ad blanditiis accusamus ab nulla facere id deleniti esse laudantium, asperiores natus maxime velit in reprehenderit! Rerum dignissimos tempora repudiandae!
+            Placeat assumenda expedita id numquam facere facilis minima repellendus sed possimus at porro ex cum repellat corrupti esse ipsam unde sapiente perferendis quisquam sint eos quas fugit, doloribus aspernatur? Quae!
+            Officiis dolorum ducimus aliquid ratione odit velit nemo quasi deleniti nesciunt modi, necessitatibus repellat officia architecto? Atque minima maiores, corrupti sequi error assumenda corporis, quaerat doloremque ipsa voluptatum odio repellat.
+        </div>
+        <div class="column">
+            <h2 class="title-paragraphs">Titulo 2</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore ad blanditiis accusamus ab nulla facere id deleniti esse laudantium, asperiores natus maxime velit in reprehenderit! Rerum dignissimos tempora repudiandae!
+            Placeat assumenda expedita id numquam facere facilis minima repellendus sed possimus at porro ex cum repellat corrupti esse ipsam unde sapiente perferendis quisquam sint eos quas fugit, doloribus aspernatur? Quae!
+            Officiis dolorum ducimus aliquid ratione odit velit nemo quasi deleniti nesciunt modi, necessitatibus repellat officia architecto? Atque minima maiores, corrupti sequi error assumenda corporis, quaerat doloremque ipsa voluptatum odio repellat.
+        </div>
+        <div class="column">
+            <h2 class="title-paragraphs">Titulo 3</h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit tempore ad blanditiis accusamus ab nulla facere id deleniti esse laudantium, asperiores natus maxime velit in reprehenderit! Rerum dignissimos tempora repudiandae!
+            Placeat assumenda expedita id numquam facere facilis minima repellendus sed possimus at porro ex cum repellat corrupti esse ipsam unde sapiente perferendis quisquam sint eos quas fugit, doloribus aspernatur? Quae!
+            Officiis dolorum ducimus aliquid ratione odit velit nemo quasi deleniti nesciunt modi, necessitatibus repellat officia architecto? Atque minima maiores, corrupti sequi error assumenda corporis, quaerat doloremque ipsa voluptatum odio repellat.
+        </div>
+    </section>
+    <a name="gallery"></a>
+    <section class="card">
+        <h2 class="title-gallery">Galeria de Imagenes</h2>
+        <div class="gallery">
+            <figure class="card-img">
+                <img src="./img/img1.jpg" alt="image">
+            </figure>
+            <figure class="card-img">
+                <img src="./img/img2.jpg" alt="image">
+            </figure>
+        </div>
+        <div class="gallery">
+            <figure class="card-img">
+                <img src="./img/img3.jpg" alt="image">
+            </figure>
+            <figure class="card-img">
+                <img src="./img/img4.jpg" alt="image">
+            </figure>
+            <figure class="card-img">
+                <img src="./img/img5.jpg" alt="image">
+            </figure>
+        </div>
+        <div class="gallery">
+            <figure class="card-img">
+                <img src="./img/img6.jpg" alt="image">
+            </figure>
+            <figure class="card-img">
+                <img src="./img/img7.jpg" alt="image">
+            </figure>
+        </div>
+    </section>
+    <a name="contact"></a>
+    <section class="card form-card">
+        <form action="#" class="form" id="form">
+            <fieldset class="form-fieldset">
+            <legend class="legend">Agenda tu cita</legend>
+            <div class="contact-field">
+                <label for="name">Nombre</label>
+                <input
+                  id="name"
+                  class="input"
+                  type="text"
+                  placeholder=""
+                  required
+                >
+              </div>
+              <div class="contact-field">
+                <label for="surname">Apellido</label>
+                <input
+                  id="surname"
+                  class="input"
+                  type="text"
+                  placeholder=""
+                  required
+                >
+              </div>
+              <div class="contact-field">
+                <label for="surname">Trabajo a Realizar:</label>
+                <select id="service" class="input" required>
+                    <option class="select-option" value="limpieza">Limpieza</option>
+                    <option class="select-option" value="extraccion">Extracción</option>
+                    <option class="select-option" value="ortodoncia">Ortodoncia</option>
+                </select>
+              </div>
+              <div class="contact-field">
+                <label for="date" class="">Fecha de Consulta</label>
+                <input
+                  id="date"
+                  class="input"
+                  type="date"
+                  required
+                >
+              </div>
+
+              <button class="button" type="submit">Verificar Disponibilidad</button>
+        </form>
+            
+                
+                
+                
+            </form>
+            <div id="resultado">
+                <!-- Aquí se mostrará el resultado de la verificación de disponibilidad -->
+            </div>
+        
+        <div class="contact-field">
+            <div class="payment-calculator-text" id="subtotal">Subtotal: $<span id="subtotalCantidad">0.00</span></div>
+            <div class="payment-calculator-text" id="iva">IVA (12%): $<span id="ivaCantidad">0.00</span></div>
+            <div class="payment-calculator-text" id="total">Total a Pagar: $<span id="totalCantidad">0.00</span></div>
+        </div>
+        </fieldset>
+    </section>
+
+<script src="scripts.js"></script>
+</body>
+</html>
